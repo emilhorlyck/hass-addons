@@ -16,3 +16,6 @@ panel_icon: mdi:currency-usd
 init: false
 image: actualbudget/actual-server
 webui: "http://[HOST]:[PORT:5006]"
+ingress: true
+ingress_port: 5006
+ingress_entry: /
